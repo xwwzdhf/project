@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src="script/detail_module.js" type="module"></script>
+    <script src="script/header_hover.js" type="module"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="wrapper ">
+            <div class="top_left">
+                <span>欢迎光临 OCJ.COM.CN</span>
+                <em><a href="login.html">登录</a></em>
+                <i><a href="registry.html">注册</a></i>
+                <strong>送货至: </strong><b class="iconfont icon-dingwei"></b>
+            </div>
+            <div class="admin" style="display: none;">
+                <span><em></em>会员 欢迎光临 OCJ.COM.CN</span>
+                <a href="javascript:;">退出</a>
+                <strong>送货至: </strong><b class="iconfont icon-dingwei"></b>
+            </div>
+            <div class="top_right">
+                <ul>
+                    <li class="list">
+                        <span class="iconfont icon-wodegerenzhongxin
+                        "></span>
+                        <a href="#">我的购物 </a>
+                        <span class="iconfont icon-down_3"></span>
+                        <div class="sub_nav">
+                            <ul>
+                                <li>
+                                    <a href="#">订单查询</a>
+                                </li>
+                                <li>
+                                    <a href="#">积分查询</a>
+                                </li>
+                                <li>
+                                    <a href="#">抵用券查询</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 我的收藏</a>
+                                </li>
+                                <li>
+                                    <a href="#">修改信息</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list">
+                        <span class="iconfont icon-kefuzhongxin"></span>
+                        <a href="#">顾客中心</a>
+                    </li>
+                    <li class="list">
+                        <span class="iconfont icon-shouji"></span>
+                        <a href="#">移动版</a>
+                    </li>
+                    <li class="list">
+                        <span class="iconfont icon-diannao"></span>
+                        <a href="#">TV版</a>
+                    </li>
+                    <li class="list">
+                        <img src="img/topimg5.png" alt="">
+                        <a href="#">微信</a>
+                        <div class="line"></div>
+                        <div class="sub_pic">
+                            <p>扫一扫，关注我们</p>
+                            <img src="https://cdnimg.ocj.com.cn/image_site/shop/conts/8021/6741/9905/11128/1_20170904091940_98.jpg" alt="">
+                            <em>微信服务号：OCJ_FW</em>
+                            <span>关注并绑定账户送5元积分哟</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="wrapper clearfix">
+            <div class="logo">
+                <a href="#"><img src="https://cdnimg.ocj.com.cn/common/webpc/image/tiplogo/cplogo0.png" alt=""></a>
+                <a href="#"><img src="https://www.ocj.com.cn/image_site/shop/conts/8021/6741/9903/11464/1_20210126162310_71.png" alt=""></a>
+            </div>
+            <div class="search_box">
+                <div class="search_top">
+                    <form name="search_form" id="search_form">
+                        <input type="text" class="keyword" name="keyword">
+                        <button>搜索</button>
+                    </form>
+                </div>
+                <div class="search_bottom">
+                    <a href="#">超级年货节</a>
+                    <a href="#">礼送健康</a>
+                    <a href="#">厨房焕新</a>
+                    <a href="#">东方年礼节</a>
+                    <a href="#">新人专享</a>
+                    <a href="#">销售排行榜</a>
+
+                </div>
+            </div>
+            <div class="header_right clearfix">
+                <div class="shop_car">
+                    <span class="iconfont icon-gouwuche
+                    "></span>
+                    <a href="cartlist.html">购物车</a>
+                    <i class="iconfont
+                    icon-down_3"></i>
+                </div>
+                <div class="header_r_pic">
+                    <img src="https://cdnimg.ocj.com.cn/image_site/shop/conts/8021/6741/9941/11267/1_20210119143545_76.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header_menu">
+            <ul class="clearfix" style="width: 1190px; margin: 0 auto;">
+                <li>
+                    <a href="#" class="menu_all">全部商品分类</a>
+                </li>
+                <li>
+                    <a href="index1.html">首页</a>
+                </li>
+                <li>
+                    <a href="#">TV购物</a>
+                </li>
+                <li>
+                    <a href="#">团购</a>
+                </li>
+                <li>
+                    <a href="#">全球购</a>
+                </li>
+                <li>
+                    <a href="#">商城</a>
+                </li>
+                <li>
+                    <a href="#">会员俱乐部</a>
+                </li>
+                <li>
+                    <a href="#">企业官网</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_top"><img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/cart/dealer.png" alt=""><span class="main_title"></span></div>
+        <div class="main_bot clearfix">
+            <div class="main_b_left">
+                <div class="main_pic">
+                    <img src="" alt="" class="spic">
+                    <div class="sf"></div>
+                </div>
+                <div class="bf">
+                    <img src="" alt="" class="bpic">
+                </div>
+                <div class="main_smallpic">
+                    <span class="left"></span>
+                    <div class="small_pic">
+                        <ul class="clearfix">
+                        </ul>
+                    </div>
+                    <span class="right"></span>
+                </div>
+                <div class="main_look">
+                    <div class="line"></div>
+                    <span>查看图片</span>
+                </div>
+                <div class="main_share">
+                    <span>分享到
+                        <a href="#" class="wb"></a> <a href="#" class="lj"></a></span>
+                    <em>收藏</em>
+                </div>
+            </div>
+            <div class="main_b_mid">
+                <div class="main_r_key">
+                    <p><span>商品编号</span>
+                        <em>1711-18<i></i></em></p>
+                </div>
+                <div class="main_r_price">
+                    <p><span>价 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  格</span><i class="price1">￥<em></em></i></p>
+                    <p><span>促 &nbsp;销 &nbsp;价</span><i class="price2">￥<em></em></i></p>
+                </div>
+                <div class="main_from">
+                    <p><span>配 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  送</span><em>杭州</em></p>
+                    <p><span>颜 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  色</span><em>米色</em><em>灰色</em></p>
+                    <p><span style="vertical-align: middle;">数 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  量</span><em class="from_btn"><i class="from_left"></i><input type="text" value="1"><i class="from_right"></i></em></p>
+                </div>
+                <div class="main_shop clearfix">
+                    <div class="shop_left">
+                        <em>立即购买</em>
+                        <i>加入购物车</i>
+                    </div>
+                    <div class="shop_right">
+                        <a href="#">APP下单享更多优惠</a>
+                        <img style="vertical-align: middle;" src="http://image1.ocj.com.cn/item_images/upload/065811/17111836A.jpg" alt="">
+                    </div>
+                </div>
+                <div class="main_other">
+                    <p><img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/otuan/dtfunc_icon1.png" alt="">
+                        <em>正品保障</em>
+                        <img style="width: 1px;margin-right: 10px;" src="https://cdnimg.ocj.com.cn/common/theme/v1/images/otuan/dtfunc_line.jpg" alt="">
+                        <img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/otuan/dtfunc_icon2.png" alt="">
+                        <em>东东客服</em>
+                        <img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/otuan/icon_wuliu.png" alt="">
+                        <em>指定配送公司配送</em>
+                    </p>
+                    <p><img src="https://cdnimg.ocj.com.cn/common/html5/images/detailshop/lipinkaicon.png" alt="">
+                        <em>不支持心意畅想礼包支付</em></p>
+                    <p>
+                        <img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/otuan/dtfunc_icon5.png" alt="">
+                        <em>商品一经售出，在未使用的前提下，7天内可以退货</em>
+                    </p>
+                    <p><img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/otuan/icon_xize2.png" alt="">
+                        <em>家用电器类商品退换货细则</em></p>
+                </div>
+            </div>
+            <div class="main_b_right">
+                <h5>商品评价</h5>
+                <div class="main_pj">
+                    <em>5</em>
+                    <span>.0</span>
+                    <div class="pj_connent">
+                        <img style="margin-left: 10px;" src="https://cdnimg.ocj.com.cn/common/theme/v1/images/shop/bg.icon.3.gif" alt=""><span>3条评论</span>
+                        <p><img src="https://cdnimg.ocj.com.cn/common/theme/v1/images/bg.star.1.2.gif" alt=""></p>
+                    </div>
+                </div>
+                <div class="other_shop">
+                    <h4>象印(ZOJIRUSHI) 热卖商品</h4>
+                    <ul>
+                        <li class="clearfix"><img src="https://cdnimg.ocj.com.cn/item_images/item/15/23/9675/15239675S.jpg" alt="">
+                            <div style="float: left; width: 118px;"><a href="#">象印(ZOJIRUSHI) CD-WDH40C 微电脑</a>￥<em>588</em></div>
+                        </li>
+                        <li class="clearfix"><img src="https://cdnimg.ocj.com.cn/item_images/item/15/06/5566/15065566S.jpg" alt="">
+                            <div style="float: left; width: 118px;"><a href="#">象印(ZOJIRUSHI) 日本原装进口微电脑黑</a>￥<em>1259</em></div>
+                        </li>
+                        <li class="clearfix"><img src="https://cdnimg.ocj.com.cn/item/product/2020/9/main_1600225450206_920S.jpg" alt="">
+                            <div style="float: left; width: 118px;"><a href="#">象印(ZOJIRUSHI) CD-JUH30C日本原装</a>￥<em>1299</em></div>
+                        </li>
+                    </ul>
+                    <div class="shop_btn"><button>该品牌全部商品</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer_top clearfix">
+                <div class="foot_t_left clearfix">
+                    <dl>
+                        <dt class="title_1"></dt>
+                        <dd>订购指南</dd>
+                        <dd>
+                            <a href="#">会员注册</a>
+                        </dd>
+                        <dd>
+                            <a href="#">订购方式</a>
+                        </dd>
+                        <dd>
+                            <a href="#">交换/退货</a>
+                        </dd>
+                        <dd>
+                            <a href="#">发票指南</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="title_2"></dt>
+                        <dd>支付配送</dd>
+                        <dd>
+                            <a href="#">支付方式</a>
+                        </dd>
+                        <dd>
+                            <a href="#">配送时间</a>
+                        </dd>
+                        <dd>
+                            <a href="#">配送范围</a>
+                        </dd>
+                        <dd>
+                            <a href="#">免费配送</a>
+                        </dd>
+                        <dd>
+                            <a href="#">有关验货</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="title_3"></dt>
+                        <dd>顾客中心</dd>
+                        <dd>
+                            <a href="#">使用条款</a>
+                        </dd>
+                        <dd>
+                            <a href="#">积分规则</a>
+                        </dd>
+                        <dd>
+                            <a href="#">退换货政策</a>
+                        </dd>
+                        <dd>
+                            <a href="#">信息保护</a>
+                        </dd>
+                        <dd>
+                            <a href="#">更正说明</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="title_4"></dt>
+                        <dd>会员社区</dd>
+                        <dd>
+                            <a href="#">会员权益</a>
+                        </dd>
+                        <dd>
+                            <a href="#">会员俱乐部</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="title_5"></dt>
+                        <dd>特色服务</dd>
+                        <dd>
+                            <a href="#">分期付款</a>
+                        </dd>
+                        <dd>
+                            <a href="#">企业团购</a>
+                        </dd>
+                        <dd>
+                            <a href="#">营销联盟</a>
+                        </dd>
+                        <dd>
+                            <a href="#">上门服务</a>
+                        </dd>
+                        <dd>
+                            <a href="#">免费退换货</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="title_6"></dt>
+                        <dd>商家合作</dd>
+                        <dd>
+                            <a href="#">合作招商</a>
+                        </dd>
+                        <dd>
+                            <a href="#">合作伙伴</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="foot_t_right">
+                    <div class="foot_r_top clearfix">
+                        <h4>公告事项</h4>
+                        <div class="foot_lunbo">
+                            <a href="#">"12月21日-12月27日神象超级品牌周”活动中奖公告"</a>
+                        </div>
+                        <div class="foot_more">
+                            <a href="#">更多</a>
+                        </div>
+                    </div>
+                    <div class="foot_r_bot">
+                        <img src="https://www.ocj.com.cn/image_site/shop/conts/8021/6741/9939/11261/1_20150814190801_94.jpg" alt="">
+                        <img src="https://www.ocj.com.cn/image_site/shop/conts/8021/6741/9939/11261/1_20150814190832_60.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer_line"></div>
+            <div class="foot_b_top clearfix">
+                <div class="logo_dfmz">
+                    <img src="http://www.ocj.com.cn/common/webpc/image/imageindex/logo_dfmz.png" alt="">
+                    <span>旗下</span>
+                </div>
+                <div class="foot_text">
+                    <p>上海东方电视购物有限公司 版权所有 Copyright © 2004-2021 ocj.com.cn All Rights Reserved</p>
+                    <p>免费咨询及订购电话：上海800-708-8000（固话）&nbsp;&nbsp; （021）51119900（手机）&nbsp;&nbsp; 全国800-988-8000（固话）&nbsp;&nbsp; 400-889-8000（手机）</p>
+                    <p>信息系统安全等级保护评定备案证明编号&nbsp;&nbsp;31001099027-00001&nbsp;&nbsp;&nbsp;&nbsp;信息网络传播视听节目许可证：0908230&nbsp;&nbsp;&nbsp;<a href="#">食品经营许可证：JY13101100062462</a>
+                    </p>
+                    <p>
+                        <a href="#">互联网药品信息服务资格证书（沪）- 非经营性 - 2019-0072</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#">沪杨食药监械经营许20187004号</a>&nbsp;&nbsp;&nbsp;&nbsp;违法和不良信息举报：（021）51119921
+                    </p>
+                </div>
+            </div>
+            <div class="foot_bot">
+                <img src="http://cdnimg.ocj.com.cn/common/images/gawb.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.1.png" alt="">
+                <img class="pic_3" src="https://rr.knet.cn/static/images/newLogo/6Y9M.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.12.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.11.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.3.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.4.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.8.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/images/img.footer.icon.9.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/webpc/image/imageindex/img.footer.icon.wanggou1.png" alt="">
+                <img src="http://cdnimg.ocj.com.cn/common/webpc/image/imageindex/962110.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
